@@ -1,0 +1,51 @@
+Student Loan Payment Calculator Proposal
+
+Program Title:
+Student Loan Payment Calculator
+
+Program Description:
+The Student Loan Payment Calculator helps students and graduates estimate monthly loan
+payments based on essential financial parameters like loan amount, interest rate, and loan
+term. Using the standard amortization formula, this program will enable users to determine
+how much they need to repay each month, aiding in financial planning and debt management.
+
+Learning Objectives:
+1. Mathematical Calculations: Learn and implement financial formulas, like loan
+amortization, using Python.
+2. Function Organization: Break the problem into modular functions, each performing
+a single specific task.
+3. Testing with Pytest: Gain experience writing and running unit tests to validate the
+program logic.
+4. User Input Validation: Learn to validate user input to ensure only correct, nonnegative values are processed.
+
+Modules Used:
+
+
+
+
+math: For performing mathematical loan payment calculations.
+pytest: To create and run unit tests for program functions.
+tkinter (optional): To design a user-friendly graphical interface for improved user
+experience.
+
+Function Names:
+1. calculate_monthly_payment(): Computes monthly payments using the loan amount,
+annual interest rate, and loan term.
+2. validate_inputs(): Validates that user input values (loan amount, interest rate, loan
+term) are non-negative and valid.
+3. format_payment_result(): Formats and rounds the calculated monthly payment for
+user-friendly display.
+
+4. get_user_input(): Gathers and validates user input for loan amount, loan term, and
+interest rate.
+
+Test Function Names:
+1. test_calculate_monthly_payment(): Tests whether
+calculate_monthly_payment() computes the correct monthly payments with
+sample data.
+2. test_validate_inputs(): Ensures validate_inputs() handles both valid and invalid
+input properly.
+3. test_format_payment_result(): Checks whether format_payment_result()
+formats results correctly (rounded to two decimal places).
+
+

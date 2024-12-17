@@ -1,0 +1,40 @@
+Final Report: Student Loan Payment Calculator
+Program Title:
+Student Loan Payment Calculator
+Program Description:
+The Student Loan Payment Calculator is a Python-based application that helps students and graduates estimate their monthly loan payments and manage their finances. By inputting parameters such as loan amount, interest rate, and loan term, the program calculates the monthly payment using the amortization formula. The application also provides an amortization schedule, including extra payments, and displays the results graphically. This tool is designed to assist users in making informed financial decisions regarding student loans.
+Learning Objectives:
+* Mathematical Calculations: Implemented the amortization formula to calculate monthly loan payments and interest over time.
+* Function Organization: The program is modularized with functions that handle specific tasks such as payment calculation, input validation, and amortization schedule generation.
+* User Input Validation: Ensured that user inputs are positive and valid, preventing errors during calculations.
+* Testing with Pytest: Created test functions to validate the program's core functionality, ensuring correctness and reliability.
+* GUI Development: Developed a graphical user interface using tkinter to allow users to input loan details and view results interactively.
+Program Functions:
+1. calculate_monthly_payment(): Computes the monthly loan payment based on loan amount, interest rate, and loan term.
+2. validate_inputs(): Ensures that the user inputs for loan amount, interest rate, and loan term are positive values.
+3. format_payment_result(): Formats the calculated monthly payment to two decimal places for user-friendly display.
+4. calculate_amortization_schedule(): Generates the amortization schedule, taking into account any extra payments made towards the loan.
+5. plot_amortization_schedule(): Plots the remaining loan balance over time, visually representing the loan repayment progress.
+6. display_amortization_schedule(): Displays the amortization schedule in a readable tabular format.
+7. get_user_input(): Prompts the user for the loan amount, interest rate, loan term, and extra payment.
+8. calculate_and_display(): Orchestrates the entire process of calculating and displaying the results, including the graphical plot of the amortization schedule.
+Modules Used:
+* math: Used for performing the necessary mathematical calculations to compute the monthly payment and amortization schedule.
+* tkinter: Provides a graphical user interface (GUI) that allows users to input data and view results.
+* matplotlib: Used to create a graphical representation of the loan amortization schedule.
+* pytest: For writing unit tests to verify that the functions are working as expected.
+Testing:
+* Test Functions:
+* test_calculate_monthly_payment(): Verifies that the monthly payment is calculated correctly for standard and zero-interest loans.
+* test_validate_inputs(): Ensures that invalid inputs (e.g., negative values) are properly rejected.
+* test_format_payment_result(): Validates that the formatted payment output displays two decimal places.
+* Testing Results: The program passed all tests, confirming the correctness of the core functions.
+Table of Work:
+DateTime Spent (hours)Description of Work2024-12-093Planned project structure and researched loan amortization formulas.2024-12-103Designed program structure and modular functions and the user interface (UI) using Tkinter and tested input validation.2024-12-113Implemented loan payment calculations and tested for edge cases2024-12-123Developed the amortization schedule logic and ensured accuracy2024-12-132 and 30 minutesAdded extra payment functionality and optimized code performance2024-12-143Integrated Matplotlib for loan balance visualization and tested graph outputs.2024-12-152Debugged code, added comments, and improved user input validation.2024-12-161Tested the complete program for usability and edge cases2024-12-1730 minutesVerified test functions using pytest and documented project proposal
+
+Challenges and Solutions:
+* Challenge 1: Handling Extra Payments: Implementing extra monthly payments in the amortization schedule required careful calculation adjustments. This was resolved by adjusting the principal payment and ensuring the remaining balance is reduced accordingly.
+* Challenge 2: Input Validation: Ensuring that the user inputs were correctly validated was tricky, especially when handling invalid inputs. I used error messages and condition checks to ensure inputs were within valid ranges.
+Conclusion:
+The Student Loan Payment Calculator program successfully calculates monthly loan payments, generates an amortization schedule, and displays the results in both tabular and graphical formats. The project met all the objectives outlined in the proposal and is ready for use as a financial planning tool. The code is modular, tested, and includes error handling to ensure smooth operation.
+
